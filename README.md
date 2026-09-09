@@ -1,10 +1,12 @@
 # KRAIT proposal
 
-Private client presentation, interactive hardware concepts, and selected study results.
+Client presentation, interactive hardware concepts, and selected study results.
 
-## Open the presentation
+View the presentation at https://krait-proposal.erinyes-tech.com/.
 
-1. Accept the GitHub repository invitation and sign in.
+## Run a local copy
+
+1. Open this repository.
 2. Select **Code → Download ZIP**, then extract the archive.
 3. Open a terminal in the extracted folder containing `index.html`.
 4. With Python installed, run:
@@ -21,6 +23,6 @@ Use the navigation to review Hardware, Coordination, Waveform, Electronics, Deve
 
 Custom-transducer quotes are being requested; selection and pricing remain pending. Both modem BOM figures are preliminary targets. The engineering offer covers PCB design, bench validation and basic code for $15,000, with exact scope and acceptance criteria to be agreed.
 
-This repository contains presentation files only, not the private engineering implementation, source BOMs or complete handoff package. It is not a public website. The CNAME file is an inactive artifact from a deferred public-hosting plan; GitHub Pages is not enabled and DNS was not changed.
+This repository contains presentation files only, not the private engineering implementation, source BOMs or complete handoff package. The presentation and this repository are public. GitHub Pages publishes the main branch; CNAME specifies the custom domain. Search-engine exclusion requests are advisory, not access controls.
 
 Three.js and OrbitControls retain their MIT license in THREE-LICENSE.txt. That dependency notice is not a blanket license grant for the proposal content.

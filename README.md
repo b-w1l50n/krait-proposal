@@ -17,7 +17,7 @@ python -m http.server 8000 --bind 127.0.0.1
 
 Opening index.html directly as a file will not reliably load the JavaScript modules. The presentation uses local dependencies and does not require Internet access after download.
 
-Use the navigation to review Hardware, Coordination, Waveform, Electronics, Development, Contractor response, and Engagement. Hardware can be rotated and zoomed; labels can be toggled.
+Use the navigation to review Hardware, Coordination, Waveform, Electronics, Development, Contractor Proposal, and For Review. Hardware can be rotated and zoomed; labels can be toggled. The signal study includes Send TX, a distance slider, delayed reception, and an FFT of a synthetic 32 kHz burst plus noise. These interactive signals are illustrative, not measured study results.
 
 Custom-transducer quotes are being requested; selection and pricing remain pending. Both modem BOM figures are preliminary targets. The engineering offer covers PCB design, bench validation and basic code for $15,000, with exact scope and acceptance criteria to be agreed.
 

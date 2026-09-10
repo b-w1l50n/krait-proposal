@@ -21,7 +21,7 @@ Opening index.html directly as a file will not reliably load the JavaScript modu
 
 Use the navigation to review Hardware, Coordination, Waveform, Electronics, Development, Contractor Proposal, and For Review. Hardware can be rotated and zoomed; labels can be toggled. The signal study includes Send TX, a distance slider, delayed reception, and an FFT of a synthetic 32 kHz burst plus noise. These interactive signals are illustrative, not measured study results.
 
-Custom-transducer quotes are being requested; selection and pricing remain pending. Both modem BOM figures are preliminary targets. The engineering offer covers PCB design, bench validation and basic code for $15,000, with exact scope and acceptance criteria to be agreed.
+Custom-transducer quotes are being requested; selection and pricing remain pending. Both modem BOM figures are preliminary targets. The engineering offer covers PCB design, basic modem code and hardware-in-the-loop (HIL) bench validation of the custom modems for $15,000, with exact scope and acceptance criteria to be agreed.
 
 This repository contains presentation files only, not the private engineering implementation, source BOMs or complete handoff package. The presentation and this repository are public. GitHub Pages publishes the main branch; CNAME specifies the custom domain. Search-engine exclusion requests are advisory, not access controls.
 

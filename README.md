@@ -25,6 +25,6 @@ Custom-transducer quotes are being requested; selection and pricing remain pendi
 
 This repository contains presentation files only, not the private engineering implementation, source BOMs or complete handoff package. The presentation and this repository are public. GitHub Pages publishes the main branch; CNAME specifies the custom domain. Search-engine exclusion requests are advisory, not access controls.
 
-Three.js and OrbitControls retain their MIT license in THREE-LICENSE.txt. That dependency notice is not a blanket license grant for the proposal content.
+Third-party dependency notices are retained in THIRD_PARTY_NOTICES.txt. That notice is not a blanket license grant for the proposal content.
 
 <!-- Pages rebuild marker: 2026-09-11 -->

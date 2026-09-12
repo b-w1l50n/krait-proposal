@@ -179,7 +179,7 @@ function build() {
   const acousticLabels=[];
   for(const role of Object.keys(assemblies)){
     const el=document.createElement('span');el.className='model-label';el.textContent=role==='buoy'?'GATEWAY / CONCEPT PCB':`${role.toUpperCase()} / CONCEPT PCB`;container.append(el);labelNodes[role]=el;
-    const componentLabels=[['TX TRANSDUCER*',new THREE.Vector3(-3,.6,2.55)],['RX HYDROPHONE*',new THREE.Vector3(-1.85,.25,3.45)]];
+    const componentLabels=[['TX TRANSDUCER',new THREE.Vector3(-3,.6,2.55)],['RX HYDROPHONE',new THREE.Vector3(-1.85,.25,3.45)]];
     if(role==='buoy')componentLabels.push(['Generic RF SDR',new THREE.Vector3(2.45,.45,1.05)]);
     for(const [caption,anchor]of componentLabels){
       const label=document.createElement('span');label.className='model-label';label.textContent=caption;label.dataset.role=role;container.append(label);acousticLabels.push({role,label,anchor});
